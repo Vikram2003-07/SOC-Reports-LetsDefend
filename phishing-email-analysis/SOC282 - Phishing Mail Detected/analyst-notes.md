@@ -1,0 +1,3 @@
+Felix was targeted by a phishing email offering a free coffee voucher. The user downloaded and executed the attached file (coffee.exe), which was identified as AsyncRAT malware. The malware attempted to establish communication with its C2 server (37.120.233.226).
+
+The host was successfully contained, and the phishing email was removed from the environment. As part of remediation, the affected system requires a full rebuild (nuke and pave). Additionally, all active sessions associated with Felix’s account were terminated, and passwords were reset to prevent unauthorized access.

@@ -1,37 +1,40 @@
 # SOC Reports - LetsDefend
 
-This folder contains SOC investigation reports and lab writeups completed from LetsDefend scenarios. The reports are organized by analysis category and case name.
+Central collection of SOC investigation writeups and lab exercises from LetsDefend scenarios. Reports are grouped by analysis category and case folder.
 
-## Folder Structure
+## Quick Overview
 
-- `phishing-email-analysis/` - Phishing email investigation reports and related SOC alert analysis.
+- **Purpose:** Learning and documenting SOC triage, analysis, and reporting workflows.
+- **Content:** Case notes, screenshots, investigation steps, and final incident reports.
 
-## Cases Included
+## Top-level Folders
 
-Current phishing email analysis cases include:
+- `Malware-analysis/` — Malware-focused investigations (detection, sandboxing, IOC extraction, remediation notes).
+- `phishing-email-analysis/` — Phishing email investigations (headers, attachments, URLs, user impact, remediation).
 
-- `SOC114 - Malicious Attachment Detected - Phishing Alert`
-- `SOC120 - Phishing Mail Detected Internal to Internal`
-- `SOC140 - Phishing Mail Detected - Suspicious Task Scheduler`
-- `SOC141 - Phishing URL Detected`
-- `SOC282 - Phishing Alert Deseptive Mail Detected`
+## Table of contents (by case)
 
-## Skills Demonstrated
+Malware-analysis:
 
-- SOC alert triage
-- Email header analysis
-- IOC extraction
-- Phishing investigation
-- Threat intelligence lookup
-- Incident report writing
+- `SOC104 - Malware Detected` — analyst note and final report (see Malware-analysis/SOC104 - Malware Detected/report/soc104-Malware-Detected.md)
+- `SOC109 - Emotet Malware Detected` — analyst note and final report (see Malware-analysis/SOC109 - Emotet Malware Detected/report/soc109-Emotet-Malware-Detected.md)
+- `SOC119 - Proxy - Malicious Executable File Detected` — analyst note and final report (see Malware-analysis/SOC119 - Proxy - Malicious-Executable-File-Detected/report/soc119-Proxy-Malicious-Executable-File-Detected.md)
 
-## Common Tools
+Phishing-email-analysis:
 
-- VirusTotal
-- AnyRun
-- MXToolbox
-- LetsDefend SIEM and investigation tools
+- `SOC114 - Malicious Attachment Detected - Phishing Alert` — analyst notes and report (phishing-email-analysis/SOC114 - Malicious Attachment Detected - Phishing Alert/reports/soc114-malicious-attachment.md)
+- `SOC120 - Phishing Mail Detected Internal to Internal` — analyst note and report (phishing-email-analysis/SOC120 - Phishing Mail Detected Internal to Internal/reports/soc120-Phishing-Mail-Analysis.md)
+- `SOC140 - Phishing Mail Detected - Suspicious Task Scheduler` — analyst note and report (phishing-email-analysis/SOC140 - Phishing Mail Detected - Suspicious Task Scheduler/reports/soc140-Phishing-Mail-Analysis.md)
+- `SOC141 - Phishing URL Detected` — analyst notes and report (phishing-email-analysis/SOC141 - Phishing URL Detected/reports/soc141-phishing-url-analysis.md)
+- `SOC282 - Phishing Alert Deseptive Mail Detected` — analyst notes and report (phishing-email-analysis/SOC282 - Phishing Alert Deseptive Mail Detected/reports/soc282-phishing-mail-analysis.md)
 
-## Notes
+## How to use this workspace
 
-These reports are for learning, documentation, and portfolio purposes. Each case folder may include screenshots, notes, findings, and a final incident summary.
+1. Open a case folder (for example, `phishing-email-analysis/SOC114 - Malicious Attachment Detected - Phishing Alert`).
+2. Review `analyst-note.md` / `analyst-notes.md` for investigation steps and evidence.
+3. See the final incident report in each case's `report/` or `reports/` subfolder for a concise summary.
+
+## Suggested next steps
+
+- Review and standardize individual case `README.md` files to include TL;DR, timeline, and key IOCs.
+- Add a small index file linking directly to each final report for quicker navigation.

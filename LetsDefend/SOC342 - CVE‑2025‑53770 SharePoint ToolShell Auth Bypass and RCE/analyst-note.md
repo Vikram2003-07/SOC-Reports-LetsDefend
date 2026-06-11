@@ -1,0 +1,3 @@
+# Analyst note
+
+Confirmed True Positive. Investigation identified successful exploitation of SharePoint via CVE-2025-53770 from source IP 107.191.58.76. Malicious PowerShell execution dropped payload.exe in the Windows Temp directory and deployed the webshell spinstall0.aspx under SharePoint LAYOUTS. Additional artifacts included notes.txt and evidence of MachineKey extraction through a Base64-encoded PowerShell payload. Host was contained, malicious files removed, IOCs blocked, and remediation actions initiated. Incident classified as confirmed compromise/webshell activity.

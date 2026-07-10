@@ -1,4 +1,4 @@
-# SOC Investigations Lab
+# SOC Investigations
 
 A comprehensive repository documenting my technical proficiency in Security Operations Center (SOC) workflows, incident response, and threat analysis. This portfolio serves as a centralized knowledge base for my investigative methodologies and findings derived from hands-on labs in environments like TryHackMe and LetsDefend.
 

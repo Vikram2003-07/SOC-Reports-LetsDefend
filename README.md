@@ -49,4 +49,4 @@ Throughout these reports, I utilize a professional security stack, including but
 * **Operating Systems:** Windows (Forensics/Registry), Linux (Command Line/Log analysis).
 
 ## 🚀 Objective
-My goal is to demonstrate a disciplined, evidence-based approach to cybersecurity investigations, transforming raw telemetry into actionable intelligence and clear, professional reporting.
+My goal is to demonstrate a disciplined, evidence-based approach to cybersecurity investigations, transforming raw telemetry into actionable intelligence and clear, professional reporting. 
